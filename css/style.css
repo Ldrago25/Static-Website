@@ -1,16 +1,7 @@
-.borderad {
+.contenido {
     width: 100%;
     height: 100%;
     background-color: #62C3ED;
-}
-
-.contenido {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    background-color: #395795;
 }
 
 .navbar {
@@ -49,26 +40,6 @@
     width: 30%;
 }
 
-@media (max-width: 700px) {
-    .section-one {
-        flex-direction: column;
-        align-items: center;
-    }
-    .section-two {
-        margin-top: 20px;
-    }
-    .middle {
-        flex-direction: column;
-    }
-    .imagen {
-        width: 90%;
-        margin-top: 20px;
-    }
-    .texto {
-        width: 90%;
-    }
-}
-
 .boton {
     border: none;
     border-radius: 15px;
@@ -102,4 +73,24 @@
 
 .titulo {
     color: #395795;
+}
+
+@media (max-width: 700px) {
+    .section-one {
+        flex-direction: column;
+        align-items: center;
+    }
+    .section-two {
+        margin-top: 20px;
+    }
+    .middle {
+        flex-direction: column;
+    }
+    .imagen {
+        width: 90%;
+        margin-top: 20px;
+    }
+    .texto {
+        width: 90%;
+    }
 }
