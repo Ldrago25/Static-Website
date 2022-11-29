@@ -53,12 +53,6 @@
     background-color: #24375c;
 }
 
-.boton-cont {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
 
 .texto {
     width: 45%;
